@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="./estilos2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!--EMPIEZA NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="inicio.html"><img class="logo"
+                    src="https://i.ibb.co/bJfth6t/DALL-E-2023-05-18-10-29-09-logo-png-nave-con-forma-de-logo-de-nike-dando-la-vuelta-al-planeta-como-c.png">SuperSónicos</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="#">Remeras</a></li>
+                            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contacto
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                            <li><a class="dropdown-item" href="#">Instagram</a></li>
+                            <li><a class="dropdown-item" href="#">Email</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--FIN DE NAVBAR-->
+
+    <!--EMPIEZA CARRUSEL-->
+    <div class="row mt-2 mb-2 text-center">
+        <div class="col-lg-5 m-auto">
+            <button class="btn btn-secondary btn-block" id="btn-qs">¿Quiénes somos?</button>
+            <p id="quienes-somos" class="h5 p-2 pt-1 pb-1"> </p>
+            <hr>
+        </div>
+    </div>
+
+    <hr>
+    <div class="row mb-2 text-center">
+        <div class="m-auto">
+            <h1>¿Qué pueden encontrar en nuestra tienda?</h1>
+        </div>
+    </div>
+
+    <div class="row mt-3 justify-content-center pb-3">
+        <div class="col-sm-8">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/imagenes/remeraNikeCarrusel.jpg" class="d-block w-100 img-carrusel" alt="Remeras">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>REMERAS</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/imagenes/pantalonNikeCarrusel.jpg" class="d-block w-100 img-carrusel"
+                            alt="Pantalones">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PANTALONES</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/imagenes/gorraNikeCarrusel.jpg" class="d-block w-100 img-carrusel" alt="Accesorios">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ACCESORIOS</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--FIN DE CARRUSEL-->
+
+
+    <div class="row mt-2 mb-2">
+        <div class="col-lg-5 m-auto text-center">
+            <h1>Productos Destacados</h1>
+        </div>
+    </div>
+
+    <!--COMIENZO PRODUCTOS DESTACADOS-->
+    <div class="container p-3 pt-3 pb-4">
+        <div class="row">
+            <div class="col-md-3 p-1">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="card-img-top"
+                            src="https://nikearprod.vtexassets.com/arquivos/ids/213030-1400-1400?v=1772384938&width=1400&height=1400&aspect=true"
+                            alt="Remera Nike">
+                    </div>
+
+                    <h5 class="card-title">Remera Nike</h6>
+                        <p class="card-text">$10.499</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-1">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="card-img-top"
+                            src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6167c0b0a0324973b130af0400a3e2fc_9366/Pantalon_Adicolor_Classics_Cutline_Verde_IC9263_21_model.jpg"
+                            alt="Pantalón Adidas">
+                    </div>
+
+                    <h5 class="card-title">Pantalón Adidas Classics</h6>
+                        <p class="card-text">$21.990</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-1">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="card-img-top"
+                            src="https://woker.vtexassets.com/arquivos/ids/256197-1200-1200?v=637770784153870000&width=1200&height=1200&aspect=true"
+                            alt="Gorra Converse">
+                    </div>
+
+                    <h5 class="card-title">Gorra Converse Chuck Patch</h6>
+                        <p class="card-text">$5.090</p>
+                </div>
+            </div>
+            <div class="col-md-3 p-1">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <img class="card-img-top"
+                            src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_480,h_480/global/907944/01/fnd/ARG/fmt/png"
+                            alt="Medias Puma">
+                    </div>
+
+                    <h5 class="card-title">Medias Puma Crew</h6>
+                        <p class="card-text">$2.899</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--Fin Productos destacados-->
+    <div class="row justify-content-center">
+        <div class="col-10 col-md-6">
+            <h2 class="text-center">Suscribete a nuestro newsletter</h2>
+            <h5 class="text-center">10% de descuento en tu próxima compra</h3>
+                <div class="pb-1">
+                    <input type="email" class="form-control" placeholder="Ingrese su Email">
+                </div>
+
+                <a href="inicio.html"><button class="btn btn-secondary" id="btn-sub">Suscribirse</button></a>
+        </div>
+    </div>
+
+
+    <!--Empieza Footer-->
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row mt-3 p-3 pb-1 bg-dark text-white">
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <p class="h3"><img class="logo"
+                            src="https://i.ibb.co/bJfth6t/DALL-E-2023-05-18-10-29-09-logo-png-nave-con-forma-de-logo-de-nike-dando-la-vuelta-al-planeta-como-c.png">SuperSónicos
+                    </p>
+                    <p class="text-secondary">IES 9023 RDM</p>
+                </div>
+                <div class="mb-3 col-xs-12 col-md-6 col-lg-4">
+                    <p class="h5">Contacto <img class="iconB" src="imagenes/correo-de-contacto.png"></p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#"><img class="icon"
+                                src="imagenes/whatsapp.png">WhatsApp</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#"><img class="icon"
+                                src="imagenes/instagram.png">Instagram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#"><img class="icon"
+                                src="imagenes/gmail.png">Email</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Inicio</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Productos</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Preguntas Frecuentes</a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <hr>
+                    <p class="text-white text-center">Copyright - All rights © reserved - SS Company - <span
+                            id="anioCopy"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="scriptFecha.js"></script>
+    <script src="scriptSub.js"></script>
+    <script src="scriptQS.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
